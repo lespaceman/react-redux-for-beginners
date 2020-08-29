@@ -1,7 +1,8 @@
-import React from 'react';
-import IdCard from './IdCard'
+import React, { Component } from 'react';
+import IdCard from './Ninjas'
+import AddNinja from './AddNinja'
 
-class App extends React.Component {
+class App extends Component {
   state = {
     ninjas: [
       { name: "Loki", age: "699", belt: "black", id: "1" },
@@ -17,7 +18,7 @@ class App extends React.Component {
             Hello ya all
           </h1>
           <IdCard ninjas={this.state.ninjas} />
-
+          <AddNinja />
         </header>
       </div>
     );
