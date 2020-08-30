@@ -1,0 +1,12 @@
+body {
+    background-color: goldenrod
+}
+.ninja-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.id-card {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
