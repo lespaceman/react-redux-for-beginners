@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function ninjas({ ninjas, deleteNinja }) {
 
     const ninjaList = ninjas.map(ninja => {
